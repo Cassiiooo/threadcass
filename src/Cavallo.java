@@ -25,7 +25,7 @@ public class Cavallo extends Thread {
 
         if (posizione >= lunghezzaPercorso && vincitore == null) {
             vincitore = nome;
-            System.out.println("🏆 " + nome + " è il vincitore!");
+            System.out.println( nome + " è il vincitore!");
         }
     }
 }
